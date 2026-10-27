@@ -1,0 +1,932 @@
+{
+  "date": "2026-10-27",
+  "source": "RK3588 board SCAN-Planner directory snapshot",
+  "files": [
+    {
+      "path": "src/simulator/Utils/odom_visualization/package.xml",
+      "source_sha256": "7eb4662eea75ac15ae4366bae7878f996f3cc5cb1b07e0ae533ddc75f8f8f6f8",
+      "published_sha256": "7eb4662eea75ac15ae4366bae7878f996f3cc5cb1b07e0ae533ddc75f8f8f6f8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/odom_visualization/CMakeLists.txt",
+      "source_sha256": "dcde53c687402df782e102b0c10839b163ac83c6e222419a25babd9ee909ded6",
+      "published_sha256": "dcde53c687402df782e102b0c10839b163ac83c6e222419a25babd9ee909ded6",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/odom_visualization/src/odom_visualization.cpp",
+      "source_sha256": "343f23bd4d66364712d8d54ddd00034d23a16fad5e013d5a206cb707f773ae01",
+      "published_sha256": "343f23bd4d66364712d8d54ddd00034d23a16fad5e013d5a206cb707f773ae01",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/odom_visualization/meshes/hummingbird.mesh",
+      "source_sha256": "c2b9f892fa0ec833dd9fcdf795d81fbe4b62cfed7fda05fffdf53c0ebe356641",
+      "published_sha256": "c2b9f892fa0ec833dd9fcdf795d81fbe4b62cfed7fda05fffdf53c0ebe356641",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/pose_utils/package.xml",
+      "source_sha256": "8c6d8eeb9b309133520b3083695ed2b6863a342bef456f97fdf53014306076fa",
+      "published_sha256": "8c6d8eeb9b309133520b3083695ed2b6863a342bef456f97fdf53014306076fa",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/pose_utils/CMakeLists.txt",
+      "source_sha256": "18af643509f7c4b96e91301f905cce03afea77f2ab0a99b6aeb37f585af49650",
+      "published_sha256": "18af643509f7c4b96e91301f905cce03afea77f2ab0a99b6aeb37f585af49650",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/pose_utils/src/pose_utils.cpp",
+      "source_sha256": "2f6271fc98b4a267a97ac0433dd5d599e52e38a5e32237e05b078c755db75968",
+      "published_sha256": "2f6271fc98b4a267a97ac0433dd5d599e52e38a5e32237e05b078c755db75968",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/pose_utils/include/pose_utils.h",
+      "source_sha256": "bf4cdde8b05626067806716cd6d86145e46afd0f01e02cede228206345905d49",
+      "published_sha256": "bf4cdde8b05626067806716cd6d86145e46afd0f01e02cede228206345905d49",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/package.xml",
+      "source_sha256": "6e2ab68c48b0457a71776d3f85639f0a8fd74204505a17ffd0d972c0909bd0b5",
+      "published_sha256": "6e2ab68c48b0457a71776d3f85639f0a8fd74204505a17ffd0d972c0909bd0b5",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/README.md",
+      "source_sha256": "e48c79207a514ea06d88533c974fd915237eeafcc1a4a98ce45f4d50e4ed5c4a",
+      "published_sha256": "e48c79207a514ea06d88533c974fd915237eeafcc1a4a98ce45f4d50e4ed5c4a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/CMakeLists.txt",
+      "source_sha256": "fa9f6bacf7b4a4fa5555fccbc8a29e47d69254a98780d30d2fc3eec75bad115f",
+      "published_sha256": "fa9f6bacf7b4a4fa5555fccbc8a29e47d69254a98780d30d2fc3eec75bad115f",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/ros2_control.xacro",
+      "source_sha256": "d84a5faea9e1e05be0d69af0e704acfeb2d68fcef5fba2c8d084a6d1c014cb3e",
+      "published_sha256": "d84a5faea9e1e05be0d69af0e704acfeb2d68fcef5fba2c8d084a6d1c014cb3e",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/robot.xacro",
+      "source_sha256": "da2991a58c9300095d265639e0fe99126abc399b9ef9a7a134f3ed8396c13d99",
+      "published_sha256": "da2991a58c9300095d265639e0fe99126abc399b9ef9a7a134f3ed8396c13d99",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/const.xacro",
+      "source_sha256": "fec485669d746b85a4955f21da72abe091f0316d909d047d1a0d9f6f4d4d620d",
+      "published_sha256": "fec485669d746b85a4955f21da72abe091f0316d909d047d1a0d9f6f4d4d620d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/leg.xacro",
+      "source_sha256": "eab0e1a5d0e8f29054e714a83f24f6a2018343396210a0bb1a7fad171fa078f2",
+      "published_sha256": "eab0e1a5d0e8f29054e714a83f24f6a2018343396210a0bb1a7fad171fa078f2",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/gazebo.xacro",
+      "source_sha256": "bf0d624b59f9eb2c2750f743589dde28457b88d02ee5efe4b472141041c3c6b2",
+      "published_sha256": "bf0d624b59f9eb2c2750f743589dde28457b88d02ee5efe4b472141041c3c6b2",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/xacro/materials.xacro",
+      "source_sha256": "5335e8a1c02e81f6d6bd5f3a0748e00b633ed783b80f4089b2da92a7cd363474",
+      "published_sha256": "5335e8a1c02e81f6d6bd5f3a0748e00b633ed783b80f4089b2da92a7cd363474",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/urdf/Amended_collision_model.png",
+      "source_sha256": "4c2ce468f29313bd65a6109265f99b55b156f8dba8bf3f5c1b9afb0ad666cba6",
+      "published_sha256": "4c2ce468f29313bd65a6109265f99b55b156f8dba8bf3f5c1b9afb0ad666cba6",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/urdf/Normal_collision_model.png",
+      "source_sha256": "4aaa869842b28436e8cf73a7d9cf67eb4f0651808cae4407f8975f0f87434ec5",
+      "published_sha256": "4aaa869842b28436e8cf73a7d9cf67eb4f0651808cae4407f8975f0f87434ec5",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/worlds/empty.sdf",
+      "source_sha256": "8c35bc5f227f282ac1bb2b22f593f674ad1de19e1e1d76a2f8083d8a6297c1b9",
+      "published_sha256": "8c35bc5f227f282ac1bb2b22f593f674ad1de19e1e1d76a2f8083d8a6297c1b9",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/foot.dae",
+      "source_sha256": "f37a2d16dd2e6975297c5ec26b4d1f2ce2052c4d64715e25e7ea8f8476268e86",
+      "published_sha256": "f37a2d16dd2e6975297c5ec26b4d1f2ce2052c4d64715e25e7ea8f8476268e86",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/calf_mirror.dae",
+      "source_sha256": "c65ac56ddfca59b6edfcb68654d2863855707098aa188d338f9b80b1ac11cd54",
+      "published_sha256": "c65ac56ddfca59b6edfcb68654d2863855707098aa188d338f9b80b1ac11cd54",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/thigh.dae",
+      "source_sha256": "167a6c6545f792f9e7ea53abe7e66dae4d72b53e0ef532ae9903a1f7907b384f",
+      "published_sha256": "167a6c6545f792f9e7ea53abe7e66dae4d72b53e0ef532ae9903a1f7907b384f",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/base.dae",
+      "source_sha256": "f777940215d5072dfb047726282455dff00c58655675148c21c79b3e606bfd7a",
+      "published_sha256": "f777940215d5072dfb047726282455dff00c58655675148c21c79b3e606bfd7a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/calf.dae",
+      "source_sha256": "a875e0e2bb2433d8433faadafc9bfae4f3b0c6a5d64ba8eb75821239c091f3dc",
+      "published_sha256": "a875e0e2bb2433d8433faadafc9bfae4f3b0c6a5d64ba8eb75821239c091f3dc",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/hip.dae",
+      "source_sha256": "1f1a020683056677d73682c6783907bb13c8a9c14b2736c7cce2a630523e0597",
+      "published_sha256": "1f1a020683056677d73682c6783907bb13c8a9c14b2736c7cce2a630523e0597",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/meshes/thigh_mirror.dae",
+      "source_sha256": "ab1d3b0ef1184735e79bd53c011c4f668a731a23b532d37e07ef74e65201bce2",
+      "published_sha256": "ab1d3b0ef1184735e79bd53c011c4f668a731a23b532d37e07ef74e65201bce2",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/foot.dae",
+      "source_sha256": "f37a2d16dd2e6975297c5ec26b4d1f2ce2052c4d64715e25e7ea8f8476268e86",
+      "published_sha256": "f37a2d16dd2e6975297c5ec26b4d1f2ce2052c4d64715e25e7ea8f8476268e86",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/calf_mirror.dae",
+      "source_sha256": "c65ac56ddfca59b6edfcb68654d2863855707098aa188d338f9b80b1ac11cd54",
+      "published_sha256": "c65ac56ddfca59b6edfcb68654d2863855707098aa188d338f9b80b1ac11cd54",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/thigh.dae",
+      "source_sha256": "167a6c6545f792f9e7ea53abe7e66dae4d72b53e0ef532ae9903a1f7907b384f",
+      "published_sha256": "167a6c6545f792f9e7ea53abe7e66dae4d72b53e0ef532ae9903a1f7907b384f",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/base.dae",
+      "source_sha256": "f777940215d5072dfb047726282455dff00c58655675148c21c79b3e606bfd7a",
+      "published_sha256": "f777940215d5072dfb047726282455dff00c58655675148c21c79b3e606bfd7a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/calf.dae",
+      "source_sha256": "a875e0e2bb2433d8433faadafc9bfae4f3b0c6a5d64ba8eb75821239c091f3dc",
+      "published_sha256": "a875e0e2bb2433d8433faadafc9bfae4f3b0c6a5d64ba8eb75821239c091f3dc",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/hip.dae",
+      "source_sha256": "1f1a020683056677d73682c6783907bb13c8a9c14b2736c7cce2a630523e0597",
+      "published_sha256": "1f1a020683056677d73682c6783907bb13c8a9c14b2736c7cce2a630523e0597",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/dae/thigh_mirror.dae",
+      "source_sha256": "ab1d3b0ef1184735e79bd53c011c4f668a731a23b532d37e07ef74e65201bce2",
+      "published_sha256": "ab1d3b0ef1184735e79bd53c011c4f668a731a23b532d37e07ef74e65201bce2",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/config/ros2_controllers.yaml",
+      "source_sha256": "efa137087778baa515e39c36441b8c2247d61856d6d7168a1c2de29a5db23177",
+      "published_sha256": "efa137087778baa515e39c36441b8c2247d61856d6d7168a1c2de29a5db23177",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/config/bridge.yaml",
+      "source_sha256": "a8ac02566991784fc354f1a1ff06b0e3ac4931422f7d35ff0f03774a84fa37af",
+      "published_sha256": "a8ac02566991784fc354f1a1ff06b0e3ac4931422f7d35ff0f03774a84fa37af",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/launch/go2_rviz.launch.py",
+      "source_sha256": "19935c0a15537f1cd0344d6e6e24befdc9890b48c0c087058d01adfcd1cb3f95",
+      "published_sha256": "19935c0a15537f1cd0344d6e6e24befdc9890b48c0c087058d01adfcd1cb3f95",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/launch/check_joint.rviz",
+      "source_sha256": "6787cd985b8825a0db7fad16bda9ba042b77319f0b62f2d741eca05ad76d37f4",
+      "published_sha256": "6787cd985b8825a0db7fad16bda9ba042b77319f0b62f2d741eca05ad76d37f4",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/go2_description/launch/go2_sim.launch.py",
+      "source_sha256": "1a2504e86ebe2cbbcf0b5a5ab155cbf4630c35131500c5fad25878f49f42a631",
+      "published_sha256": "1a2504e86ebe2cbbcf0b5a5ab155cbf4630c35131500c5fad25878f49f42a631",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/waypoint_generator/package.xml",
+      "source_sha256": "04d085bc99859cc1779fc78e52d86e21782666d3a62bf653dd4962b3500faa84",
+      "published_sha256": "04d085bc99859cc1779fc78e52d86e21782666d3a62bf653dd4962b3500faa84",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/waypoint_generator/CMakeLists.txt",
+      "source_sha256": "f694cb3bd6997f5c82bd46c397dddfb2e2d46933f304c72c3346b2e484e7cdcd",
+      "published_sha256": "f694cb3bd6997f5c82bd46c397dddfb2e2d46933f304c72c3346b2e484e7cdcd",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/Utils/waypoint_generator/src/waypoint_generator.cpp",
+      "source_sha256": "bac7298dcae0585b806a222a2e0da56132cf5f5e75e28abaead56c11191bf216",
+      "published_sha256": "bac7298dcae0585b806a222a2e0da56132cf5f5e75e28abaead56c11191bf216",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/package.xml",
+      "source_sha256": "a5655e6ef283b68e791d40673adcc5467d6660fc3c65a52b7821401fe5d2bd05",
+      "published_sha256": "a5655e6ef283b68e791d40673adcc5467d6660fc3c65a52b7821401fe5d2bd05",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/CMakeLists.txt",
+      "source_sha256": "dfe51b8f7faaa16a4614b24f5dcf19df8dc5cdd5a5bcadc01a95016e4650e09b",
+      "published_sha256": "dfe51b8f7faaa16a4614b24f5dcf19df8dc5cdd5a5bcadc01a95016e4650e09b",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/params/camera.yaml",
+      "source_sha256": "bb2a3c162f36407a076d5de733a726e81cbd1be4f0bb2bbd7c5fe8025cbb6c1a",
+      "published_sha256": "bb2a3c162f36407a076d5de733a726e81cbd1be4f0bb2bbd7c5fe8025cbb6c1a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/src/opengl_render_node.cpp",
+      "source_sha256": "d321e33a9d84ab7737aed26a370513ece8b208d4757a9b3f18c89db5f5c72193",
+      "published_sha256": "d321e33a9d84ab7737aed26a370513ece8b208d4757a9b3f18c89db5f5c72193",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/src/pointcloud_render_node.cpp",
+      "source_sha256": "de816e856299fe1ffa89908981a4dbcea7406cb9457d6bed79ac26bbdba88658",
+      "published_sha256": "de816e856299fe1ffa89908981a4dbcea7406cb9457d6bed79ac26bbdba88658",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/filesystem.h",
+      "source_sha256": "8c7aece384f773eb54f929afb047049e794893caafaad2b45983a2bdff1cf075",
+      "published_sha256": "8c7aece384f773eb54f929afb047049e794893caafaad2b45983a2bdff1cf075",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/camera.vs",
+      "source_sha256": "4fef32d0bfaa78f600376a72da69f8899589cc67c81f921f9d2662dca30dac27",
+      "published_sha256": "4fef32d0bfaa78f600376a72da69f8899589cc67c81f921f9d2662dca30dac27",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/camera.fs",
+      "source_sha256": "9d2c5b04a99d690a84f72d97f7a07cd48781cb0918f14159298c9e681f9ff580",
+      "published_sha256": "9d2c5b04a99d690a84f72d97f7a07cd48781cb0918f14159298c9e681f9ff580",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/shader_m.h",
+      "source_sha256": "ba446a068114a5a008ad61ab81870916eb46a0108d214f9645d1d46f5350ba4c",
+      "published_sha256": "ba446a068114a5a008ad61ab81870916eb46a0108d214f9645d1d46f5350ba4c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/tools_kd_hash.hpp",
+      "source_sha256": "c1b19e00dd90d1008e69d50fd8a9764915a96cdfc4e2c848ba798385ac036a09",
+      "published_sha256": "c1b19e00dd90d1008e69d50fd8a9764915a96cdfc4e2c848ba798385ac036a09",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/opengl_sim.hpp",
+      "source_sha256": "c127bc592f4cdc78532414a0ec5072a4db6320a679408000b4a92f45974fe2a8",
+      "published_sha256": "c127bc592f4cdc78532414a0ec5072a4db6320a679408000b4a92f45974fe2a8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/360camera.vs",
+      "source_sha256": "bdecabf38606a4fc3f2ff6771c8072934536d55871bca69a66db766024e019db",
+      "published_sha256": "bdecabf38606a4fc3f2ff6771c8072934536d55871bca69a66db766024e019db",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/ikd-Tree/ikd_Tree.cpp",
+      "source_sha256": "b48096fce9582368500e067e837ebdfd9033d3f27a610f6c7dc6065f48f6905c",
+      "published_sha256": "b48096fce9582368500e067e837ebdfd9033d3f27a610f6c7dc6065f48f6905c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/ikd-Tree/ikd_Tree.h",
+      "source_sha256": "3285dca2c65a892fbbddd7ed9c3a26ce3e3cb7be7db1682b9bdcff0b2a35e285",
+      "published_sha256": "3285dca2c65a892fbbddd7ed9c3a26ce3e3cb7be7db1682b9bdcff0b2a35e285",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/FOV_Checker/FOV_Checker.h",
+      "source_sha256": "8985656a387dc2acd67bf7f069d704f079ef53f4161733b7a5cf2bf1775296a9",
+      "published_sha256": "8985656a387dc2acd67bf7f069d704f079ef53f4161733b7a5cf2bf1775296a9",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/local_sensing/include/FOV_Checker/FOV_Checker.cpp",
+      "source_sha256": "afd63ddb06cdb87a3e528d506c8d4fd2ed7181720901f8e30cc88f2b5a987394",
+      "published_sha256": "afd63ddb06cdb87a3e528d506c8d4fd2ed7181720901f8e30cc88f2b5a987394",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/package.xml",
+      "source_sha256": "c6ed6ca0e47853dac5905ca9fda077783f41488f1d48292476882b21f5336ed9",
+      "published_sha256": "c6ed6ca0e47853dac5905ca9fda077783f41488f1d48292476882b21f5336ed9",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/CMakeLists.txt",
+      "source_sha256": "6a3b9bf8aaab3eb5cf3c870c09c626d825cd4f13440e56eea276db284be54877",
+      "published_sha256": "6a3b9bf8aaab3eb5cf3c870c09c626d825cd4f13440e56eea276db284be54877",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/src/.clang-format",
+      "source_sha256": "7299fac016539f7b80056787f0b61998295248be8a0897bc0f80593c48140d24",
+      "published_sha256": "7299fac016539f7b80056787f0b61998295248be8a0897bc0f80593c48140d24",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/src/mockamap.cpp",
+      "source_sha256": "68117ecea46b434804d23fe17d1791156fe94015c6a840f22a323121ce91e572",
+      "published_sha256": "68117ecea46b434804d23fe17d1791156fe94015c6a840f22a323121ce91e572",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/src/perlinnoise.cpp",
+      "source_sha256": "097e8f53f3e923214cc6e077ac89c1df5662582e0e71a5989eabf9f4ad28729d",
+      "published_sha256": "097e8f53f3e923214cc6e077ac89c1df5662582e0e71a5989eabf9f4ad28729d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/src/maps.cpp",
+      "source_sha256": "e9142bf88b2c9d6b75239520ef1cfcf5d48416937ad701513e947ca2bc686eec",
+      "published_sha256": "e9142bf88b2c9d6b75239520ef1cfcf5d48416937ad701513e947ca2bc686eec",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/config/rviz.rviz",
+      "source_sha256": "1d6b89e2164e975c9505469d702c38c13cd2ee95377363894996eb3ed662c016",
+      "published_sha256": "1d6b89e2164e975c9505469d702c38c13cd2ee95377363894996eb3ed662c016",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/include/perlinnoise.hpp",
+      "source_sha256": "18a22c18addb667f9c36c7dde5d0a119129a0c6f561d05eaa6367c4318fbb412",
+      "published_sha256": "18a22c18addb667f9c36c7dde5d0a119129a0c6f561d05eaa6367c4318fbb412",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/mockamap/include/maps.hpp",
+      "source_sha256": "1b180377b1d332c6f1aeff5bc109f3e1be74fd306cdd4dd9b11cf20630779a03",
+      "published_sha256": "1b180377b1d332c6f1aeff5bc109f3e1be74fd306cdd4dd9b11cf20630779a03",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/map_generator/package.xml",
+      "source_sha256": "b8c4de32e41ba3932ad4946603cb65ac0ca5cef0d8cd8bcb581423e1266c558d",
+      "published_sha256": "b8c4de32e41ba3932ad4946603cb65ac0ca5cef0d8cd8bcb581423e1266c558d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/map_generator/CMakeLists.txt",
+      "source_sha256": "4a8da2a59c4aca2def88ad76684af7940cff0a483d8e4d84566ca37fd047344e",
+      "published_sha256": "4a8da2a59c4aca2def88ad76684af7940cff0a483d8e4d84566ca37fd047344e",
+      "publication_modified": false
+    },
+    {
+      "path": "src/simulator/map_generator/src/map_publisher.cpp",
+      "source_sha256": "058d7e57e43aa650c5d31aa5d3d141418d234b455b4f1dd9372bb19403bfad08",
+      "published_sha256": "058d7e57e43aa650c5d31aa5d3d141418d234b455b4f1dd9372bb19403bfad08",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/scan_planner_msgs/package.xml",
+      "source_sha256": "ac8cffb52a76590efbdd8f43b7d3cbabfe73932968135ca2aec53c4eb42c2fb1",
+      "published_sha256": "ac8cffb52a76590efbdd8f43b7d3cbabfe73932968135ca2aec53c4eb42c2fb1",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/scan_planner_msgs/CMakeLists.txt",
+      "source_sha256": "fde831fa5746fcf8121eec9f960617f5bc8433bdea06cb9683643a1835c10863",
+      "published_sha256": "fde831fa5746fcf8121eec9f960617f5bc8433bdea06cb9683643a1835c10863",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/scan_planner_msgs/msg/Bspline.msg",
+      "source_sha256": "60040920d4c09184baa540fad8babbec6b3e4e81c7d80522d4bedd048e162fbc",
+      "published_sha256": "60040920d4c09184baa540fad8babbec6b3e4e81c7d80522d4bedd048e162fbc",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/scan_planner_msgs/msg/DataDisp.msg",
+      "source_sha256": "e5af486e44777df259d35ee0a4d6f99a1a9bcb6d99de0c64687d1e5c02abc7f2",
+      "published_sha256": "e5af486e44777df259d35ee0a4d6f99a1a9bcb6d99de0c64687d1e5c02abc7f2",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/package.xml",
+      "source_sha256": "4311b5d2493ade5386bdb2c31eaa2d6f19d787de806c1e0d345403ef4ee7974f",
+      "published_sha256": "4311b5d2493ade5386bdb2c31eaa2d6f19d787de806c1e0d345403ef4ee7974f",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/CMakeLists.txt",
+      "source_sha256": "81561244c958f78f09e00a786030d5c24ff6c1d7f4793af73deaed3214645579",
+      "published_sha256": "81561244c958f78f09e00a786030d5c24ff6c1d7f4793af73deaed3214645579",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/src/grid_map.cpp",
+      "source_sha256": "06eb762b89a7e6291195f0baf324778f5553ab29d30bb8947c37ecec01872ab7",
+      "published_sha256": "06eb762b89a7e6291195f0baf324778f5553ab29d30bb8947c37ecec01872ab7",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/src/raycast.cpp",
+      "source_sha256": "d7cd0a81c3264fe8aa0920b796cf5dd86241b35aa74c15890af5a5c10f270a40",
+      "published_sha256": "d7cd0a81c3264fe8aa0920b796cf5dd86241b35aa74c15890af5a5c10f270a40",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/src/depth_filter_input.cpp",
+      "source_sha256": "f13c8389e0a4c23ca5acb80727f68d58cfd6c3ca88fa5995d3acb58e2bfc7d63",
+      "published_sha256": "f13c8389e0a4c23ca5acb80727f68d58cfd6c3ca88fa5995d3acb58e2bfc7d63",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/src/depth_input.cpp",
+      "source_sha256": "318eeffe6adbed23d82dd8b3e0967e8c0ccf6db9a5512526cee7f6f526c7f281",
+      "published_sha256": "318eeffe6adbed23d82dd8b3e0967e8c0ccf6db9a5512526cee7f6f526c7f281",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/src/depth_obstacle_filter.cpp",
+      "source_sha256": "f0a77b437cd33933beb5794190757aaa7fc2c0d9270f5fa0636ca7e5123d6732",
+      "published_sha256": "f0a77b437cd33933beb5794190757aaa7fc2c0d9270f5fa0636ca7e5123d6732",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/test/test_depth_obstacle_filter.cpp",
+      "source_sha256": "7af8477fdb2d636ea102bcef53f2e603570ae82914bf29c98bbf8875782f1a4d",
+      "published_sha256": "7af8477fdb2d636ea102bcef53f2e603570ae82914bf29c98bbf8875782f1a4d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/test/test_grid_map_depth_filter.cpp",
+      "source_sha256": "554ec446c26136d0bb9b4c69409052c24690d4f56f69ff6eef0ee4b797d8d59d",
+      "published_sha256": "554ec446c26136d0bb9b4c69409052c24690d4f56f69ff6eef0ee4b797d8d59d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/include/plan_env/depth_obstacle_filter.h",
+      "source_sha256": "7cc14dffee008193dcf5a24fda0c2a5abe99255524463147f1cc22608b001cdc",
+      "published_sha256": "7cc14dffee008193dcf5a24fda0c2a5abe99255524463147f1cc22608b001cdc",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/include/plan_env/grid_map.h",
+      "source_sha256": "a5213f80320e6272b172ac5bc214ea8dc74669a472efb595b2370f958a7e873b",
+      "published_sha256": "a5213f80320e6272b172ac5bc214ea8dc74669a472efb595b2370f958a7e873b",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_env/include/plan_env/raycast.h",
+      "source_sha256": "0bf2bfc853eed90f8ca3b47ae14050db40a08fbe5ea1db8c3ab1fb4b363b39b0",
+      "published_sha256": "0bf2bfc853eed90f8ca3b47ae14050db40a08fbe5ea1db8c3ab1fb4b363b39b0",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/path_searching/package.xml",
+      "source_sha256": "0206ac37cf3c04180d43e5ec8bdd13343608c22ead5c9c68f8e6ecb7dce5c98c",
+      "published_sha256": "0206ac37cf3c04180d43e5ec8bdd13343608c22ead5c9c68f8e6ecb7dce5c98c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/path_searching/CMakeLists.txt",
+      "source_sha256": "723d28b235c098b82fca97ce92ec6a5b25384439b55a6149678c9d3896ba5c7c",
+      "published_sha256": "723d28b235c098b82fca97ce92ec6a5b25384439b55a6149678c9d3896ba5c7c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/path_searching/src/dyn_a_star.cpp",
+      "source_sha256": "87021bfdb1eb53739f3fc3c7d023656c0d23c6ec53959aeb17359d1139ebe025",
+      "published_sha256": "87021bfdb1eb53739f3fc3c7d023656c0d23c6ec53959aeb17359d1139ebe025",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/path_searching/test/test_astar.cpp",
+      "source_sha256": "3581c011476d5c9f12bae33faebd84ee2907ba4c2a4399a8150c4d6c67e3d80c",
+      "published_sha256": "3581c011476d5c9f12bae33faebd84ee2907ba4c2a4399a8150c4d6c67e3d80c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/path_searching/include/path_searching/dyn_a_star.h",
+      "source_sha256": "e9dde2115ec23b557eb2eeebc9eb3e06f665be6c3d1f1c902198581d552b396a",
+      "published_sha256": "e9dde2115ec23b557eb2eeebc9eb3e06f665be6c3d1f1c902198581d552b396a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/package.xml",
+      "source_sha256": "41eccf955db4758e3d21faee9f3ba273aaa3b3950a26815a085e82511a1b3143",
+      "published_sha256": "41eccf955db4758e3d21faee9f3ba273aaa3b3950a26815a085e82511a1b3143",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/CMakeLists.txt",
+      "source_sha256": "5e2f21bb681b22ebc1e9b03c78df1b39a53d585ca436219abbab510434b77bb6",
+      "published_sha256": "5e2f21bb681b22ebc1e9b03c78df1b39a53d585ca436219abbab510434b77bb6",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/src/polynomial_traj.cpp",
+      "source_sha256": "608005c392dbfa46315cfa3f6e5f3b9db5bc3a10cb3f9ac539c3321505acdb18",
+      "published_sha256": "608005c392dbfa46315cfa3f6e5f3b9db5bc3a10cb3f9ac539c3321505acdb18",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/src/planning_visualization.cpp",
+      "source_sha256": "938924191bfe46dbfadd83df45d118f0fc7fc54c080ecf9bf310fc7b1ba71541",
+      "published_sha256": "938924191bfe46dbfadd83df45d118f0fc7fc54c080ecf9bf310fc7b1ba71541",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/include/traj_utils/polynomial_traj.h",
+      "source_sha256": "7ce335eea4abc5afb9f02fb3d1f5e926f57dc90e2a0b9005ad11ab13836f1060",
+      "published_sha256": "7ce335eea4abc5afb9f02fb3d1f5e926f57dc90e2a0b9005ad11ab13836f1060",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/traj_utils/include/traj_utils/planning_visualization.h",
+      "source_sha256": "c7d0bb617163f7931fce28346963a5cc5ab0f383aa00ebb360c2f8319bc5a4c1",
+      "published_sha256": "c7d0bb617163f7931fce28346963a5cc5ab0f383aa00ebb360c2f8319bc5a4c1",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/package.xml",
+      "source_sha256": "2157a112274394488a791b422007690eadc4343f861067f47cd0308a22bc8009",
+      "published_sha256": "2157a112274394488a791b422007690eadc4343f861067f47cd0308a22bc8009",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/CMakeLists.txt",
+      "source_sha256": "625227e0ae7516236c423085abc16cfa9b9496b96f2f3e49e2d50cc243d92a33",
+      "published_sha256": "625227e0ae7516236c423085abc16cfa9b9496b96f2f3e49e2d50cc243d92a33",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/src/bspline_optimizer.cpp",
+      "source_sha256": "9744424bd58841213230e95b252706360b1d4db10eaf30e7f6bf34a857a87568",
+      "published_sha256": "9744424bd58841213230e95b252706360b1d4db10eaf30e7f6bf34a857a87568",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/src/uniform_bspline.cpp",
+      "source_sha256": "222b9cf832992317efc3ca4a66df074e1eb546e9e6ddc92c03f78183f578df04",
+      "published_sha256": "222b9cf832992317efc3ca4a66df074e1eb546e9e6ddc92c03f78183f578df04",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/src/gradient_descent_optimizer.cpp",
+      "source_sha256": "4dca3811be57cf3f819a0d3601d6a6024c304f5b9852e4079bf3334706f133c7",
+      "published_sha256": "4dca3811be57cf3f819a0d3601d6a6024c304f5b9852e4079bf3334706f133c7",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/test/test_uniform_bspline.cpp",
+      "source_sha256": "3de7b3bb3cee8754c73e838249dca663efe68991d067aaf4d57834af93203867",
+      "published_sha256": "3de7b3bb3cee8754c73e838249dca663efe68991d067aaf4d57834af93203867",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/include/bspline_opt/bspline_optimizer.h",
+      "source_sha256": "ddd2c2e812b2dd59bb32f383c093246ebe12a9a667ae93d448ef5d1e4b9ef926",
+      "published_sha256": "ddd2c2e812b2dd59bb32f383c093246ebe12a9a667ae93d448ef5d1e4b9ef926",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/include/bspline_opt/uniform_bspline.h",
+      "source_sha256": "5ab1b400f4b0b36c62d3661091e753bd4a238ddf90dbdd8f3b25b5d21c387a28",
+      "published_sha256": "5ab1b400f4b0b36c62d3661091e753bd4a238ddf90dbdd8f3b25b5d21c387a28",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/include/bspline_opt/gradient_descent_optimizer.h",
+      "source_sha256": "1b02e713ac1112ea0a365f84e23af262822a1d76fe9cef3e8740b073d906abca",
+      "published_sha256": "1b02e713ac1112ea0a365f84e23af262822a1d76fe9cef3e8740b073d906abca",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/bspline_opt/include/bspline_opt/lbfgs.hpp",
+      "source_sha256": "39174dfe750b142f448fe8ac637976edc8a1bcf6a6ab8a56930e6543cfdf6b07",
+      "published_sha256": "39174dfe750b142f448fe8ac637976edc8a1bcf6a6ab8a56930e6543cfdf6b07",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/package.xml",
+      "source_sha256": "a87ec2177ecbe327398ecce14375b58ec4207e04801ad2154604b180a3d68a96",
+      "published_sha256": "a87ec2177ecbe327398ecce14375b58ec4207e04801ad2154604b180a3d68a96",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/CMakeLists.txt",
+      "source_sha256": "52afb74761fb3deca9ac4300a1f60bbf2e5b274140510e36be5f5cba44af8e4b",
+      "published_sha256": "52afb74761fb3deca9ac4300a1f60bbf2e5b274140510e36be5f5cba44af8e4b",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/open_loop_controller.cpp",
+      "source_sha256": "686695e53036eec110a750b076172c3c99b8437390b8a0a43a2751c1fef215ba",
+      "published_sha256": "686695e53036eec110a750b076172c3c99b8437390b8a0a43a2751c1fef215ba",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/scan_planner_node.cpp",
+      "source_sha256": "2040950cf8e72e6037543185b89a92fa9f416b05976131730d7ae05236bc2f08",
+      "published_sha256": "2040950cf8e72e6037543185b89a92fa9f416b05976131730d7ae05236bc2f08",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/go2_gait_publisher.cpp",
+      "source_sha256": "9f90cb9bf0a5d9aa156a0e6cfe6af3ccc8ff550ea694703a157dbd3b39408b12",
+      "published_sha256": "9f90cb9bf0a5d9aa156a0e6cfe6af3ccc8ff550ea694703a157dbd3b39408b12",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/scan_replan_fsm.cpp",
+      "source_sha256": "cd4f516bce5f7329d923cd96bdc76861fe7ae3f328f52cb28623b9437feee8ff",
+      "published_sha256": "cd4f516bce5f7329d923cd96bdc76861fe7ae3f328f52cb28623b9437feee8ff",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/go2_kinematic_sim.cpp",
+      "source_sha256": "c01c8eee657124f2c5ba5547a781b43c3ea10915e1a0dd4d3a47b9f8ed6cffc8",
+      "published_sha256": "c01c8eee657124f2c5ba5547a781b43c3ea10915e1a0dd4d3a47b9f8ed6cffc8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/closed_loop_controller.cpp",
+      "source_sha256": "5b13e3b73eb63a43119ae075950ddcfd47b810158d607556ac0fb3daf3cf5dd8",
+      "published_sha256": "5b13e3b73eb63a43119ae075950ddcfd47b810158d607556ac0fb3daf3cf5dd8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/src/planner_manager.cpp",
+      "source_sha256": "c186065f6a235920079d10422d58461b28a4e0cc96c8f73c56d3c4400d50c141",
+      "published_sha256": "c186065f6a235920079d10422d58461b28a4e0cc96c8f73c56d3c4400d50c141",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/test/test_planner_startup.py",
+      "source_sha256": "b9853c05debeabb808313e99696ed70683b29c676e52edddcd2721018da3f260",
+      "published_sha256": "b9853c05debeabb808313e99696ed70683b29c676e52edddcd2721018da3f260",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/test/benchmark_depth_filter.py",
+      "source_sha256": "98dec381833e39b453bcf006dfee1c0bb5d0486355e092246ec638bc4911d1eb",
+      "published_sha256": "52a10403a3e3fec137c1aa8e81ae297e7de96c530f6ada0a2f53552172fd742b",
+      "publication_modified": true
+    },
+    {
+      "path": "src/planner/plan_manage/test/verify_passive_stereo.py",
+      "source_sha256": "bbf1a5f2bb7694b49291313106b7c2378ce404533362483abfcf556196457fe3",
+      "published_sha256": "2285287103db2681f9a135d1c4b3bff53c2d439af05997d3ebc7db76dffada09",
+      "publication_modified": true
+    },
+    {
+      "path": "src/planner/plan_manage/test/test_waypoint_parameters.py",
+      "source_sha256": "9c4d01bd06ecbc5982b7cb63b915eb0253a67304c1e7b354ae2f40ebe9da96f5",
+      "published_sha256": "9c4d01bd06ecbc5982b7cb63b915eb0253a67304c1e7b354ae2f40ebe9da96f5",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/scripts/keypoint_recorder.py",
+      "source_sha256": "e2ba7f3cd0d5eb77bfb5062bd8d7d926304f4b3565c30cd4f1592dfc46bd6114",
+      "published_sha256": "e2ba7f3cd0d5eb77bfb5062bd8d7d926304f4b3565c30cd4f1592dfc46bd6114",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/config/keypoints.example.yaml",
+      "source_sha256": "e681f321f2f336081f2d443d6a576f6300ccf63f86b3692fb82f55a7df02b6ca",
+      "published_sha256": "e681f321f2f336081f2d443d6a576f6300ccf63f86b3692fb82f55a7df02b6ca",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/config/passive_stereo.yaml",
+      "source_sha256": "63336cf44a5efd96d3aa64f015520c43b729c8526b23c995f14215ea67f935f6",
+      "published_sha256": "63336cf44a5efd96d3aa64f015520c43b729c8526b23c995f14215ea67f935f6",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/config/simulator.yaml",
+      "source_sha256": "fa49f55acae0c678ec77fc72ccf5a0e2023970f0361c2fc20b534292e1d94a61",
+      "published_sha256": "fa49f55acae0c678ec77fc72ccf5a0e2023970f0361c2fc20b534292e1d94a61",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/config/controllers.yaml",
+      "source_sha256": "7139eefb804179589583ccd6dcc900aad50d47a45c5134ef7997e1aeaac4b0e8",
+      "published_sha256": "7139eefb804179589583ccd6dcc900aad50d47a45c5134ef7997e1aeaac4b0e8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/config/planner.yaml",
+      "source_sha256": "f6a3e8ee0edd6663b2d4d3ee822bfc48cae41af2d36fe625641fe8f3fc3acf8a",
+      "published_sha256": "f6a3e8ee0edd6663b2d4d3ee822bfc48cae41af2d36fe625641fe8f3fc3acf8a",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/include/plan_manage/scan_replan_fsm.h",
+      "source_sha256": "a9967b3f8a477c6f359b91bcd891046c681a87ee39bb625350691a6c3ec7a567",
+      "published_sha256": "a9967b3f8a477c6f359b91bcd891046c681a87ee39bb625350691a6c3ec7a567",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/include/plan_manage/planner_manager.h",
+      "source_sha256": "b1f04257653c84757b0a2ce8cc05c6fb5f42ba09ee523a7cc16c400e4a1a7a31",
+      "published_sha256": "b1f04257653c84757b0a2ce8cc05c6fb5f42ba09ee523a7cc16c400e4a1a7a31",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/include/plan_manage/plan_container.hpp",
+      "source_sha256": "c5c37fdd776a09b846ec04034329c2781b07f3ad4feeab095084115b179bf2d4",
+      "published_sha256": "c5c37fdd776a09b846ec04034329c2781b07f3ad4feeab095084115b179bf2d4",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/launch/default.rviz",
+      "source_sha256": "e9426ba3ef990c01c201020d4aedf767bae8febf3d2fee34b81c66121f627c1c",
+      "published_sha256": "e9426ba3ef990c01c201020d4aedf767bae8febf3d2fee34b81c66121f627c1c",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/launch/rviz.launch.py",
+      "source_sha256": "3461655a5833d8cce8df045fcc5ca1dc12b52548b4398c3fb2cd59f89dec61d8",
+      "published_sha256": "3461655a5833d8cce8df045fcc5ca1dc12b52548b4398c3fb2cd59f89dec61d8",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/launch/run.launch.py",
+      "source_sha256": "aa742861f9ba372eba8eba7f8f2677de7ae1f6ed0bd5666d2a1a4ec86fc2eb9d",
+      "published_sha256": "aa742861f9ba372eba8eba7f8f2677de7ae1f6ed0bd5666d2a1a4ec86fc2eb9d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/launch/simulator.launch.py",
+      "source_sha256": "2d770c35b29f798dbb49b4f99ba54dcf2dd55c4892b43703648de98821ec555f",
+      "published_sha256": "2d770c35b29f798dbb49b4f99ba54dcf2dd55c4892b43703648de98821ec555f",
+      "publication_modified": false
+    },
+    {
+      "path": "src/planner/plan_manage/launch/passive_stereo.launch.py",
+      "source_sha256": "0d20d29a3af5dcc0a74da64e37c0d20f5087d3d2409c72e71f467d73442350e3",
+      "published_sha256": "0d20d29a3af5dcc0a74da64e37c0d20f5087d3d2409c72e71f467d73442350e3",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/package.xml",
+      "source_sha256": "3f6a54fffe928d044989387d636a77d05bc470ced81a0b9c10e2a5c0599b9d31",
+      "published_sha256": "3f6a54fffe928d044989387d636a77d05bc470ced81a0b9c10e2a5c0599b9d31",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/README.md",
+      "source_sha256": "cc52ed2ca23f3a740ed14b1cc4cfc9d656d62703b21bd31a565b951943073657",
+      "published_sha256": "cc52ed2ca23f3a740ed14b1cc4cfc9d656d62703b21bd31a565b951943073657",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/CMakeLists.txt",
+      "source_sha256": "da5f82275bd48e7b1e940573b56baaf8b471ca25f6cd859fb9b60eb1f7eefb64",
+      "published_sha256": "da5f82275bd48e7b1e940573b56baaf8b471ca25f6cd859fb9b60eb1f7eefb64",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/src/stereo_depth_node.cpp",
+      "source_sha256": "c91b13d9b7606a1a819dcffccc220c2e8c7a9ab3480c2a36f855519562a10468",
+      "published_sha256": "c91b13d9b7606a1a819dcffccc220c2e8c7a9ab3480c2a36f855519562a10468",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/config/stereo.yaml",
+      "source_sha256": "c43a8f441ccd246b1358e6050572ac8bd4111445caa97a9f02ba4dc030eeec7d",
+      "published_sha256": "c43a8f441ccd246b1358e6050572ac8bd4111445caa97a9f02ba4dc030eeec7d",
+      "publication_modified": false
+    },
+    {
+      "path": "src/sensors/scan_stereo_depth/launch/stereo_depth.launch.py",
+      "source_sha256": "0e5c4651315b9ba8e3d839ce4fcb16b251aa735dce465417c686be22ddbf466e",
+      "published_sha256": "0e5c4651315b9ba8e3d839ce4fcb16b251aa735dce465417c686be22ddbf466e",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/images/abstract_real.jpg",
+      "source_sha256": "cf99eced2e77c7b0840b278a5a2055cbd04512eeb98d102883b9d6c2c48dc6a9",
+      "published_sha256": "cf99eced2e77c7b0840b278a5a2055cbd04512eeb98d102883b9d6c2c48dc6a9",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/images/framework.jpg",
+      "source_sha256": "d94ba2b18f148dbca29fcaa6e58e07df3b702162e308f8852c7077d50b7fdaa1",
+      "published_sha256": "d94ba2b18f148dbca29fcaa6e58e07df3b702162e308f8852c7077d50b7fdaa1",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/gif/terrain_compress.gif",
+      "source_sha256": "3063b9b63413c18d7d809ef46ef22a26e2fb1fdaef0fe4706582404fe8873f83",
+      "published_sha256": "3063b9b63413c18d7d809ef46ef22a26e2fb1fdaef0fe4706582404fe8873f83",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/gif/dynamic_compress.gif",
+      "source_sha256": "43e12fa04628cdeccfcb6aae9481c0e019bab36b1fc163ed1da36f987f9d313a",
+      "published_sha256": "43e12fa04628cdeccfcb6aae9481c0e019bab36b1fc163ed1da36f987f9d313a",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/gif/maze_compress.gif",
+      "source_sha256": "449a733c2e4fb5a31188b67c075dfe14722be0f193d117aea9f20edf6db3d8fd",
+      "published_sha256": "449a733c2e4fb5a31188b67c075dfe14722be0f193d117aea9f20edf6db3d8fd",
+      "publication_modified": false
+    },
+    {
+      "path": "assets/gif/sshape_compress.gif",
+      "source_sha256": "0c4ae3697b23dc83de486eb9c0afec2b6a4d2a4da74401312aad36ef7a0c2c5c",
+      "published_sha256": "0c4ae3697b23dc83de486eb9c0afec2b6a4d2a4da74401312aad36ef7a0c2c5c",
+      "publication_modified": false
+    },
+    {
+      "path": "tools/README.md",
+      "source_sha256": "25d4b8ea0f53d54e2c9cdbf9afef0801c608aada976bae7e48593be62b61556a",
+      "published_sha256": "25d4b8ea0f53d54e2c9cdbf9afef0801c608aada976bae7e48593be62b61556a",
+      "publication_modified": false
+    },
+    {
+      "path": "tools/benchmark_navigation_load.py",
+      "source_sha256": "067809e19649b3ae299841c952008ceeeafbf382eeeea35faa0cceead5976283",
+      "published_sha256": "83be91494dc10cf6d3f21c0c4b0dee7f285fba686805d97b3198365d4f87e5fe",
+      "publication_modified": true
+    },
+    {
+      "path": "tools/benchmark_stereo_depth.py",
+      "source_sha256": "050ec2ad82618a68e3e83196617471ef5e65fe731f17539089cbb4ede894339e",
+      "published_sha256": "050ec2ad82618a68e3e83196617471ef5e65fe731f17539089cbb4ede894339e",
+      "publication_modified": false
+    },
+    {
+      "path": "tools/build_single_core.py",
+      "source_sha256": "e47b84ef4f9a2f70e3a4ca900ac4711078c4e1b8531a1c13e69ae208903b07ef",
+      "published_sha256": "e47b84ef4f9a2f70e3a4ca900ac4711078c4e1b8531a1c13e69ae208903b07ef",
+      "publication_modified": false
+    },
+    {
+      "path": ".gitignore",
+      "source_sha256": "800efe7f15538daae0fae291a48925c9da37b0f504b1a3fdbda609d27b980296",
+      "published_sha256": "bb2ea0fbfaf30495bd2adbfca5a61baef068561ee2a8c18160e4c356abce1c3d",
+      "publication_modified": true
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "4534e947af9c95a1021630ffb2702f5ad7737bf0118ff8d54abefbb24d2b9972",
+      "published_sha256": "610cc7bb1855c8d7ace8a2db31e56c985e3840122981b40f0d595a794a5721ce",
+      "publication_modified": true
+    },
+    {
+      "path": "LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "publication_modified": false
+    },
+    {
+      "path": "NOTICE",
+      "source_sha256": "2c94da707e9520cf05ecccab75b2715a9c8a3148741a1785660dfd2bfc933cd3",
+      "published_sha256": "2c94da707e9520cf05ecccab75b2715a9c8a3148741a1785660dfd2bfc933cd3",
+      "publication_modified": false
+    }
+  ],
+  "hardware_tested": false,
+  "build_and_runtime_tests": "not completed; stopped at user request"
+}

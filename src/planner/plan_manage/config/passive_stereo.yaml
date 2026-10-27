@@ -1,0 +1,26 @@
+scan_planner_node:
+  ros__parameters:
+    grid_map.sensor_type: depth
+    grid_map.depth_pose_source: tf
+    grid_map.use_camera_info: true
+    grid_map.invalid_depth_is_free: false
+    grid_map.need_extrinsic: false
+    grid_map.frame_id: odom
+    grid_map.tf_wait_timeout: 0.2
+    grid_map.depth_timeout: 0.5
+    fsm.odom_twist_in_child_frame: true
+
+    # Height is measured in the gravity-aligned ground frame at exposure time.
+    # Current Lingmao TF profile owns its measured 0.36m base_link-to-ground offset.
+    grid_map.depth_filter.enabled: true
+    grid_map.depth_filter.height_frame: base_footprint
+    grid_map.depth_filter.obstacle_z_min: 0.08
+    grid_map.depth_filter.obstacle_z_max: 0.65
+    grid_map.depth_filter.ground_z_min: -0.10
+    grid_map.depth_filter.voxel_size: 0.05
+    grid_map.depth_filter.min_points_per_column: 8
+    grid_map.depth_filter.min_voxels_per_cluster: 4
+    grid_map.depth_filter.confirm_frames: 2
+    grid_map.depth_filter.retention_sec: 5.0
+    grid_map.depth_filter.ray_endpoint_margin: 0.10
+    grid_map.depth_filter.ray_clear_min_observations: 1

@@ -1,0 +1,14 @@
+stereo_depth_node:
+  ros__parameters:
+    method: bm
+    num_disparities: 96
+    block_size: 15
+    downsample: 1
+    opencv_threads: 2
+    min_depth: 0.3
+    max_depth: 3.0
+    max_pair_time_diff: 0.01
+    max_image_age: 0.2
+    uniqueness_ratio: 10
+    texture_threshold: 10
+    speckle_window_size: 50
